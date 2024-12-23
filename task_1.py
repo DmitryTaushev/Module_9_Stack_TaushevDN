@@ -28,7 +28,7 @@ class Stack:
             return remove_last.data
         else:
             return "Стэк пуст"
-    """Методы определения наличия элементов в стэке"""
+    """Методы определения наличия стэков"""
     def is_empty(self):
         if self.top:
             return False
@@ -82,3 +82,5 @@ stack.push(2.5)
 stack.push("sta")
 """Выводим на экран результат работы функции по подсчету стэков с целочисленными данными"""
 print(stack.counter_int())
+
+
